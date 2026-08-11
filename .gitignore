@@ -38,3 +38,9 @@ Thumbs.db
 *.egg-info/
 dist/
 build/
+
+# Результаты экспериментов
+data/
+*.npy
+*.npz
+*.json
