@@ -125,7 +125,7 @@ def main():
     print("РЕЗУЛЬТАТЫ:")
     print(f"Размеры решёток L:          {L_values}")
     print(f"Количество симуляций N:     {num_trials}")
-    print(f"Экспериментальное pc(∞):   {pc_infinity:.4f}")
+    print(f"Экспериментальное pc(inf):   {pc_infinity:.4f}")
     print(f"Теоретическое значение:      0.5927")
     error_pct = abs(pc_infinity - 0.5927) / 0.5927 * 100
     print(f"Относительная погрешность:  {error_pct:.2f}%")
